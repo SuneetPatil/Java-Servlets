@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  
+  <servlet>
+    <servlet-name>ServletClass</servlet-name>
+    <servlet-class>suneet.ServletClass</servlet-class>
+    <init-param>
+      <param-name>Trainer</param-name>
+      <param-value>Suneet Patil</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletClass</servlet-name>
+    <url-pattern>/ServletClass</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>company</param-name>
+    <param-value>EVRY India</param-value>
+  </context-param>
+  
+  <servlet>
+    <servlet-name>JspClass</servlet-name>
+    <servlet-class>suneet.JspClass</servlet-class>
+    <init-param>
+      <param-name>Trainer</param-name>
+      <param-value>Leslie Correa</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JspClass</servlet-name>
+    <url-pattern>/JspClass</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
