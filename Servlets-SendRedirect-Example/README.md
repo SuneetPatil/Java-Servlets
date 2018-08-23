@@ -3,6 +3,11 @@
 
 * Used to redirect response to another resource, it may be servlet, jsp or html file.
 * It works at client side because it uses the url bar of the browser to make another request
+```
+  String name=request.getParameter("name");
+  response.sendRedirect("https://www.google.co.in/#q="+name);
+```
+## Difference between forward() method & sendRedirect() method 
 
 forward() method  | sendRedirect() method
 ------------- | -------------
