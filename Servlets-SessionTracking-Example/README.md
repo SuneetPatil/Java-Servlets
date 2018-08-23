@@ -40,4 +40,16 @@ pw.println("Cookie is created");
 	url?name1=value1&name2=value2&??
 ```
 
+# Session Management – HttpSession interface
+
+* Container creates a session id for each user.
+* The container uses this id to identify the particular user.
+
+![HttpSessioninterface](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/HttpSessioninterface.png)
+
+## Example:
+```
+HttpSession session=request.getSession();  
+	session.setAttribute("userName", “Suneet"); 
+```
 
