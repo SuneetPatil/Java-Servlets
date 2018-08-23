@@ -25,3 +25,19 @@ cookie.setMaxAge(60*60); //1 hour
 response.addCookie(cookie);   
 pw.println("Cookie is created");
 ```
+
+# Session Management – Hidden Form Field
+
+* A hidden (invisible) textfield is used for maintaining the state of an user.
+```
+<input type="hidden" name="userName" value=“Suneet"> 
+```
+## Session Management – URL Rewriting
+
+* With URL rewriting, every local URL the user might click on is dynamically modified, or rewritten, to include extra information.
+* We can send parameter name/value pairs using the following format:
+```
+	url?name1=value1&name2=value2&??
+```
+
+
