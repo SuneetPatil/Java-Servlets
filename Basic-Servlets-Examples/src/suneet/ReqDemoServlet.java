@@ -16,7 +16,7 @@ public class ReqDemoServlet extends HttpServlet{
 		res.setContentType("text/html");
 		PrintWriter pw=res.getWriter();
 		String name=req.getParameter("name");
-		pw.println("Welcome to EVRY : "+name);
+		pw.println("Welcome to Java Training : "+name);
 	}
 	
 	public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
@@ -24,6 +24,6 @@ public class ReqDemoServlet extends HttpServlet{
 		res.setContentType("text/html");
 		PrintWriter pw=res.getWriter();
 		String name=req.getParameter("name");
-		pw.println("Welcome to EVRY : "+name);
+		pw.println("Welcome to Java Training : "+name);
 	}
 }

@@ -28,7 +28,7 @@
 ```
   <context-param>
     <param-name>company</param-name>
-    <param-value>EVRY India</param-value>
+    <param-value>Java Training</param-value>
   </context-param>
 ```
 

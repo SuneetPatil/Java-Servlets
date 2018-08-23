@@ -22,7 +22,7 @@ public class Login extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String password=request.getParameter("password");
-		if(password.equals("evry")){
+		if(password.equals("java")){
 			RequestDispatcher rd=request.getRequestDispatcher("welcome");
 			rd.forward(request, response);
 			
