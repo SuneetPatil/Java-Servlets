@@ -1,5 +1,5 @@
 # Java-Servlets
-A servlet an application that runs in a Web server or application server and provides server-side processing such as accessing a database.
+A Servlet an application that runs in a Web server or application server and provides server-side processing such as accessing a database.
 Servlet can be created  either by implementing Servlet Interface or extending  abstract classe (GenericServlet or HttpServlet)
 
 <p align="center"> 
@@ -79,13 +79,9 @@ public String getServletInfo() | returns information about servlet such as write
 This repository explains following examples:
 
 * [Basic-Servlets-Examples](https://github.com/SuneetPatil/Java-Servlets/blob/master/Basic-Servlets-Examples)
-
 * [Servlet-ConfigParams-Example](https://github.com/SuneetPatil/Java-Servlets/blob/master/Servlet-ConfigParams-Example)
-
 * [Servlets-ReqDispatcher-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-ReqDispatcher-Example)
-
 * [Servlets-SendRedirect-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-SendRedirect-Example)
-
 * [Servlets-SessionTracking-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-SessionTracking-Example)
 
 
