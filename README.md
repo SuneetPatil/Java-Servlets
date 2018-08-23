@@ -1,51 +1,31 @@
 # Java-Servlets
-Java-Servlets
-
 A servlet an application that runs in a Web server or application server and provides server-side processing such as accessing a database.
 Servlet can be created  either by implementing Servlet Interface or extending  abstract classe (GenericServlet or HttpServlet)
 
-![Server Client](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/ServerClient.png)
+<p align="center"> 
+  <img src="https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/ServerClient.png" alt="Server Client">
+</p>
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will help you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-* Latest version on Eclipse ide
-* Latest Java version
+* Eclipse IDE
+* Java 1.7+ Version
 
 ## Deployment
 
-Clone this repository and run each examples in Java environment.
+Clone this repository and run each examples.
 
 ## Servlet Terminology
 
 * Http (Hypertext Transfer Protocol): It's a stateless request-response based communication protocol.
-
 * Client: A Client is any machine that requests information.
-
 * Webserver: Web Server takes client Request and send requested resource back to the Client.
-
 * Servlet: It is a small Java program runs within a Web Server (usually across Http).
-
 * Web Container: Runtime environment for Servlets, manages life cycle of servlet.
-
-## HTTP
-
-* Http is the protocol that allows web servers and browsers to exchange data over the web.
-* HTTP uses a request/response model.
-* It is stateless means each request is considered as the new request. 
-
-Methods  | Description
-------------- | -------------
-GET  | Asks to get the resource at the requested URL.
-POST  | Asks the server to accept the body info attached. It is like GET request with extra info sent with the request.
-HEAD | Asks for only the header part of whatever a GET would return. Just like GET but with no body.
-TRACE | Asks for the loopback of the request message, for testing or troubleshooting.
-PUT | Says to put the enclosed info (the body) at the requested URL.
-DELETE | Says to delete the resource at the requested URL.
-OPTIONS | Asks for a list of the HTTP methods to which the thing at the request URL can respond.
 
 ## Methods
 
@@ -57,35 +37,7 @@ public void destroy() | is invoked only once and indicates that servlet is being
 public ServletConfig getServletConfig() | returns the object of ServletConfig
 public String getServletInfo() | returns information about servlet such as writer, copyright, version etc.
 
-## Package and Deployment
-![Package and Deployment](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/PackageandDeployment.png)
 
-### Deployment Descriptor :
-* web.xml is the deployment descriptor for web applications.
-* Every web application module must have a single web.xml file in the folder root/WEB-INF
-
-```
-<web-app >
-
-<servlet>
-
-<servlet-name>GenericServlet</servlet-name>
-
-<servlet-class>com.suneet.GenericServletExample</servlet-class>
-
-</servlet>
-
-<servlet-mapping>
-
-<servlet-name>GenericServlet</servlet-name>
-
-<url-pattern>/exampleservlet</url-pattern>
-
-</servlet-mapping>
-
-</web-app>
-
-```
 ## Servlet API
 ### javax.servlet
 #### Interfaces
