@@ -18,19 +18,19 @@
 
 ## Example :
 ```
-response.setContentType("text/html");
-PrintWriter pw = response.getWriter();
-Cookie = new Cookie(“name",“Suneet"); 
-cookie.setMaxAge(60*60); //1 hour 
-response.addCookie(cookie);   
-pw.println("Cookie is created");
+	response.setContentType("text/html");
+	PrintWriter pw = response.getWriter();
+	Cookie = new Cookie(“name",“Suneet"); 
+	cookie.setMaxAge(60*60); //1 hour 
+	response.addCookie(cookie);   
+	pw.println("Cookie is created");
 ```
 
 # Session Management – Hidden Form Field
 
 * A hidden (invisible) textfield is used for maintaining the state of an user.
 ```
-<input type="hidden" name="userName" value=“Suneet"> 
+	<input type="hidden" name="userName" value=“Suneet"> 
 ```
 ## Session Management – URL Rewriting
 
@@ -49,7 +49,7 @@ pw.println("Cookie is created");
 
 ## Example:
 ```
-HttpSession session=request.getSession();  
+	HttpSession session=request.getSession();  
 	session.setAttribute("userName", “Suneet"); 
 ```
 
