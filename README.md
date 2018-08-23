@@ -20,6 +20,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 Clone this repository and run each examples in Java environment.
 
+## Servlet Terminology
+
+* Http (Hypertext Transfer Protocol): It's a stateless request-response based communication protocol.
+
+* Client: A Client is any machine that requests information.
+
+* Webserver: Web Server takes client Request and send requested resource back to the Client.
+
+* Servlet: It is a small Java program runs within a Web Server (usually across Http).
+
+* Web Container: Runtime environment for Servlets, manages life cycle of servlet.
+
 ## Examples
 
 This repository explains following examples:
