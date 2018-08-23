@@ -46,7 +46,17 @@ HEAD | Asks for only the header part of whatever a GET would return. Just like G
 TRACE | Asks for the loopback of the request message, for testing or troubleshooting.
 PUT | Says to put the enclosed info (the body) at the requested URL.
 DELETE | Says to delete the resource at the requested URL.
-OPTIONS | Asks for a list of the HTTP methods to which the thing at the request URL can respond
+OPTIONS | Asks for a list of the HTTP methods to which the thing at the request URL can respond.
+
+## Methods
+
+Methods  | Description
+------------- | -------------
+public void init(ServletConfig config)  | initializes the servlet. It is the life cycle method of servlet and invoked by the web container only once.
+public void service(ServletRequest request,ServletResponse response)  | provides response for the incoming request. It is invoked at each request by the web container.
+public void destroy() | is invoked only once and indicates that servlet is being destroyed.
+public ServletConfig getServletConfig() | returns the object of ServletConfig
+public String getServletInfo() | returns information about servlet such as writer, copyright, version etc.
 
 ## Examples
 
