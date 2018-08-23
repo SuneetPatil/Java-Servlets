@@ -17,6 +17,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 Clone this repository and run each examples in Java environment.
 
+## Examples
+
+This repository explains following examples:
+
+* [Basic-Servlets-Examples](https://github.com/SuneetPatil/Java-Servlets/blob/master/Basic-Servlets-Examples)
+
+* [Servlet-ConfigParams-Example](https://github.com/SuneetPatil/Java-Servlets/blob/master/Servlet-ConfigParams-Example)
+
+* [Servlets-ReqDispatcher-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-ReqDispatcher-Example)
+
+* [Servlets-SendRedirect-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-SendRedirect-Example)
+
+* [Servlets-SessionTracking-Example](https://github.com/SuneetPatil/Java-Servlets/tree/master/Servlets-SessionTracking-Example)
+
+
 ## Authors
 
 * **Suneet Patil** 
