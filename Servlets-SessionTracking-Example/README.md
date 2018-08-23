@@ -9,3 +9,19 @@
     * Hidden Form Field
     * URL Rewriting
     * Session Management API.
+    
+# Session Management - Cookies
+
+* A cookie is a small piece of information that is persisted between the multiple client requests.
+
+![Session Management](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/SessionManagement.png)
+
+## Example :
+```
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+Cookie = new Cookie(“name",“Suneet"); 
+cookie.setMaxAge(60*60); //1 hour 
+response.addCookie(cookie);   
+pw.println("Cookie is created");
+```
