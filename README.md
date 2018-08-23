@@ -32,6 +32,22 @@ Clone this repository and run each examples in Java environment.
 
 * Web Container: Runtime environment for Servlets, manages life cycle of servlet.
 
+## HTTP
+
+* Http is the protocol that allows web servers and browsers to exchange data over the web.
+* HTTP uses a request/response model.
+* It is stateless means each request is considered as the new request. 
+
+Methods  | Description
+------------- | -------------
+GET  | Asks to get the resource at the requested URL.
+POST  | Asks the server to accept the body info attached. It is like GET request with extra info sent with the request.
+HEAD | Asks for only the header part of whatever a GET would return. Just like GET but with no body.
+TRACE | Asks for the loopback of the request message, for testing or troubleshooting.
+PUT | Says to put the enclosed info (the body) at the requested URL.
+DELETE | Says to delete the resource at the requested URL.
+OPTIONS | Asks for a list of the HTTP methods to which the thing at the request URL can respond
+
 ## Examples
 
 This repository explains following examples:
