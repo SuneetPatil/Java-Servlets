@@ -14,7 +14,9 @@
 
 * A cookie is a small piece of information that is persisted between the multiple client requests.
 
-![Session Management](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/SessionManagement.png)
+<p align="center"> 
+	<img src="https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/SessionManagement.png" alt="Session Management">
+</p>
 
 ## Example :
 ```
@@ -45,7 +47,9 @@
 * Container creates a session id for each user.
 * The container uses this id to identify the particular user.
 
-![HttpSessioninterface](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/HttpSessioninterface.png)
+<p align="center"> 
+	<img src="https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/HttpSessioninterface.png" alt="HttpSessioninterface">
+</p>
 
 ## Example:
 ```
