@@ -86,8 +86,41 @@ public String getServletInfo() | returns information about servlet such as write
 </web-app>
 
 ```
+## Servlet API
+### javax.servlet
+#### Interfaces
 
+* RequestDispatcher 
+* Servlet 
+* ServletConfig 
+* ServletContext 
+* ServletRequest 
+* ServletResponse 
+* SingleThreadModel
 
+#### Classes
+
+* GenericServlet
+* ServletInputStream 
+* ServletOutputStream 
+#### Exception Classes
+* ServletException
+* UnavailableException
+
+### javax.servlet.http
+
+#### Interfaces
+* HttpServletRequest
+* HttpServletResponse 
+* HttpSession 
+* HttpSessionBindingListener 
+* HttpSessionContext 
+
+#### Classes
+* Cookie 
+* HttpServlet  
+* HttpSessionBindingEvent 
+* HttpUtils 
 
 ## Examples
 
