@@ -7,7 +7,7 @@
 
 ## Forward : 
 
-Forwards a request from a servlet to another resource (servlet, JSP file, or HTML file) on the server.
+* Forwards a request from a servlet to another resource (servlet, JSP file, or HTML file) on the server.
 
 ```
 	RequestDispatcher rd=request.getRequestDispatcher("servlet2");    
@@ -15,7 +15,7 @@ Forwards a request from a servlet to another resource (servlet, JSP file, or HTM
 ```
 ## Include : 
 
-Includes the content of a resource (servlet, JSP page, or HTML file) in the response.
+* Includes the content of a resource (servlet, JSP page, or HTML file) in the response.
 ```
 	RequestDispatcher rd=request.getRequestDispatcher("/index.html"); rd.include(request, response)    
 ```
