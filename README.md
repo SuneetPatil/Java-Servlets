@@ -4,8 +4,7 @@ Java-Servlets
 A servlet an application that runs in a Web server or application server and provides server-side processing such as accessing a database.
 Servlet can be created  either by implementing Servlet Interface or extending  abstract classe (GenericServlet or HttpServlet)
 
-![Server Client
-](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/ServerClient.png)
+![Server Client](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/ServerClient.png)
 
 ## Getting Started
 
@@ -57,6 +56,38 @@ public void service(ServletRequest request,ServletResponse response)  | provides
 public void destroy() | is invoked only once and indicates that servlet is being destroyed.
 public ServletConfig getServletConfig() | returns the object of ServletConfig
 public String getServletInfo() | returns information about servlet such as writer, copyright, version etc.
+
+## Package and Deployment
+![Package and Deployment](https://github.com/SuneetPatil/Java-Servlets/blob/master/Images/PackageandDeployment.png)
+
+### Deployment Descriptor :
+* web.xml is the deployment descriptor for web applications.
+* Every web application module must have a single web.xml file in the folder root/WEB-INF
+
+```
+<web-app >
+
+<servlet>
+
+<servlet-name>GenericServlet</servlet-name>
+
+<servlet-class>com.suneet.GenericServletExample</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>GenericServlet</servlet-name>
+
+<url-pattern>/exampleservlet</url-pattern>
+
+</servlet-mapping>
+
+</web-app>
+
+```
+
+
 
 ## Examples
 
