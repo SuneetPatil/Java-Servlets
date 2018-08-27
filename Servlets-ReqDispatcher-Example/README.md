@@ -17,5 +17,6 @@
 
 * Includes the content of a resource (servlet, JSP page, or HTML file) in the response.
 ```
-	RequestDispatcher rd=request.getRequestDispatcher("/index.html"); rd.include(request, response)    
+	RequestDispatcher rd=request.getRequestDispatcher("/index.html");
+	rd.include(request, response)    
 ```
